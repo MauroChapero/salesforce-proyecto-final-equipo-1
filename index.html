@@ -3,21 +3,26 @@
 <head>
   <title>Formulario de Donaciones</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 </head>
 <body>
   <h1>Formulario de Donaciones</h1>
-  <form action="procesar.php" method="post">
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
     <div class="form-group">
       <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
+      <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+    </div>
+    <div class="form-group">
+      <label for="apellido">Apellido:</label>
+      <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" />
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input  id="email" maxlength="80" name="email" size="20" type="text" />
     </div>
     <div class="form-group">
-      <label for="compañia">compañia:</label>
-      <input type="text" id="compañia" name="compañia" required>
+      <label for="compañia">Compañia:</label>
+      <input  id="company" maxlength="40" name="company" size="20" type="text" />
     </div>
     <div class="form-group">
       <label for="cantidad">Cantidad a donar:</label>
