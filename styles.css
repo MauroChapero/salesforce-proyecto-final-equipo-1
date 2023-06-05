@@ -3,7 +3,12 @@ body {
     margin: 0;
     padding: 20px;
   }
-  
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
   h1 {
     text-align: center;
   }
