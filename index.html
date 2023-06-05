@@ -17,28 +17,46 @@
       <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" />
     </div>
     <div class="form-group">
-      <label for="email">Email:</label>
-      <input  id="email" maxlength="80" name="email" size="20" type="text" />
+      <label for="telefono">telefono:</label>
+      <input type="text" id="telefono" name="telefono" required>
     </div>
     <div class="form-group">
-      <label for="compañia">Compañia:</label>
-      <input  id="company" maxlength="40" name="company" size="20" type="text" />
+      <label for="Email">Email:</label>
+      <input type="text" id="Email" name="Email" required>
     </div>
     <div class="form-group">
-      <label for="cantidad">Cantidad a donar:</label>
-      <input type="number" id="cantidad" name="cantidad" required>
+      <label for="Ciudad">Ciudad:</label>
+      <input type="text" id="Ciudad" name="Ciudad" required>
     </div>
     <div class="form-group">
-      <label for="metodo">Método de pago:</label>
-      <select id="metodo" name="metodo" required>
-        <option value="paypal">PayPal</option>
-        <option value="tarjeta">Tarjeta de Crédito</option>
-        <option value="transferencia">Transferencia Bancaria</option>
+      <label for="Que desea donar">Que desea donar:</label>
+      <select id="Que desea donar" name="Que desea donar" required>
+        <option value="Dinero">Dinero</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Ropa">Ropa</option>
+        <option value="Otro">Otro</option>
       </select>
     </div>
     <div class="form-group">
       <input type="submit" value="Donar">
     </div>
+  </form>
+</body>
+</html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="social-icons">
+    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+  </div>
+  <form action="procesar.php" method="post">
+    <!-- campos del formulario -->
   </form>
 </body>
 </html>

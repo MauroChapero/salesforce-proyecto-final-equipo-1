@@ -40,4 +40,37 @@ body {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+  /* Estilos para los íconos de redes sociales */
+.social-icons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Estilos adicionales para los íconos de Font Awesome */
+.fa {
+  display: inline-block;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
   
