@@ -1,79 +1,61 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-.imagen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
-  h1 {
-    text-align: center;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  input[type="compañia"],
-  select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  /* Estilos para los íconos de redes sociales */
-.social-icons {
+
+h1 {
   text-align: center;
+}
+
+.imagen {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos del formulario */
+.form-group {
   margin-bottom: 20px;
 }
 
-.social-icon {
-  display: inline-block;
-  margin: 0 5px;
-  font-size: 20px;
-  color: #333;
-  text-decoration: none;
+label {
+  display: block;
+  font-weight: bold;
 }
 
-/* Estilos adicionales para los íconos de Font Awesome */
-.fa {
-  display: inline-block;
-  font-size: inherit;
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.fa-facebook-f:hover {
-  color: #3b5998;
+/* Estilos de los íconos de redes sociales */
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.fa-twitter:hover {
-  color: #1da1f2;
+.social-icon {
+  color: #333;
+  font-size: 24px;
+  margin-right: 10px;
 }
 
-.fa-instagram:hover {
-  color: #c32aa3;
+.social-icon:hover {
+  color: #555;
 }

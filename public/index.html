@@ -3,7 +3,9 @@
 
 <head>
   <title>Formulario de Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 </head>
 
@@ -21,25 +23,25 @@
       <input id="last_name" maxlength="80" name="last_name" size="20" type="text" required />
     </div>
     <div class="form-group">
-      <label for="compania">Companía:</label>
+      <label for="compania">Compañía:</label>
       <input id="company" maxlength="40" name="company" size="20" type="text"
         placeholder="Dejar en blanco si no corresponde" />
     </div>
     <div class="form-group">
       <label for="telefono">Teléfono:</label>
-      <input type="text" id="phone" maxlength="40" name="phone" size="20" type="text" required>
+      <input type="text" id="phone" maxlength="40" name="phone" size="20" required>
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input id="email" maxlength="80" name="email" size="20" type="text" required>
+      <input id="email" maxlength="80" name="email" size="20" type="email" required>
     </div>
     <div class="form-group">
-      <label for="Ciudad">Ciudad:</label>
+      <label for="ciudad">Ciudad:</label>
       <input id="city" maxlength="40" name="city" size="20" type="text" required>
     </div>
     <div class="form-group">
-      <label for="Que desea donar">Que desea donar:</label>
-      <select id="Que desea donar" name="Que desea donar" required>
+      <label for="que-desea-donar">Qué desea donar:</label>
+      <select id="que-desea-donar" name="que-desea-donar" required>
         <option value="Dinero">Dinero</option>
         <option value="Alimentos">Alimentos</option>
         <option value="Ropa">Ropa</option>
@@ -50,26 +52,12 @@
       <input type="submit" value="Donar">
     </div>
   </form>
-</body>
 
-</html>
-
-<html>
-
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-
-<body>
   <div class="social-icons">
     <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
     <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
     <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
   </div>
-  <form action="procesar.php" method="post">
-    <!-- campos del formulario -->
-  </form>
 </body>
 
 </html>
