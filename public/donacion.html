@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de Donaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="donaciones.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center my-4">Formulario de Donaciones</h1>
+      <form id="donationForm" action="procesar.php" method="post" onsubmit="return openPaymentOptions(event)">
+        <div class="form-group">
+          <label for="nombre" class="font-weight-bold">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="telefono" class="font-weight-bold">Telefono:</label>
+          <input type="text" id="telefono" name="telefono" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="Email" class="font-weight-bold">Email:</label>
+          <input type="text" id="Email" name="Email" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="Ciudad" class="font-weight-bold">Ciudad:</label>
+          <input type="text" id="Ciudad" name="Ciudad" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="donacion" class="font-weight-bold">Que desea donar:</label>
+          <select id="donacion" name="donacion" class="form-control" required>
+            <option value="Dinero">Dinero</option>
+            <option value="Alimentos">Alimentos</option>
+            <option value="Ropa">Ropa</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Donar" class="btn btn-success btn-block"/>
+        </div>
+      </form>
+    </div>
+    <script>
+      function openPaymentOptions(event) {
+        const form = document.getElementById('donationForm');
+        if (!form.checkValidity()) {
+          // Formulario no válido, no hagas nada y deja que el navegador muestre los mensajes de validación
+          return;
+        }
+        
+        const donationType = document.getElementById('donacion').value;
+        if (donationType === 'Dinero') {
+          window.open("https://www.paypal.com/donate?hosted_button_id=VA9NWSZ633SAQ", "_blank");
+          event.preventDefault();
+        }
+      }
+    </script>
+  </body>
+</html>

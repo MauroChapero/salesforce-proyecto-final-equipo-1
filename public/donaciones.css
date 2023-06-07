@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
