@@ -1,5 +1,15 @@
 # salesforce-proyecto-final-equipo-1
+
 Final project for pass the exam. Here we gonna test our knowledge in salesforce
+
+## Equipo
+
+Barahona Cesar
+Cader Fernanda
+Chapero Mauro
+Gentile Bruno
+Ruiz Federico
+Vizgarra Bárbara
 
 # README - Fundación Guay Equipo de GuayForce Developers
 
@@ -43,9 +53,7 @@ Para cumplir con esta tarea, es necesario tener en cuenta los siguientes aspecto
 
 El objetivo de nuestro proyecto es crear un trabajo final dedicado a la Fundación Guay. Desarrollaremos un entorno de prueba y, una vez que estemos seguros de que los cambios son correctos, realizaremos el deploy al master. Una vez que el proyecto esté correctamente realizado, subiremos los cambios a Firebase y luego compraremos un dominio .com.ar para mejorar el SEO de la URL.
 
-##
-
- Pasos Extra Específicos
+## Pasos Extra Específicos
 
 Estos son los pasos adicionales específicos a seguir en nuestro proyecto:
 
