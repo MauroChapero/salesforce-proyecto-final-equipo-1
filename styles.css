@@ -77,3 +77,58 @@ body {
 .fa-instagram:hover {
   color: #c32aa3;
 }
+
+/* Pop up */
+
+.popup {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+}
+
+.background-image {
+  background-image: url('img/Imagen_de_WhatsApp_2023-05-30_a_las_12.15.40.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  width: 59%;
+  height: 70%;
+  position: absolute;
+  transform: translateX(36%);
+  top: 0;
+  left: 0;
+}
+
+.message {
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
