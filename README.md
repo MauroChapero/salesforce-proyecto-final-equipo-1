@@ -1,6 +1,4 @@
 # salesforce-proyecto-final-equipo-1
-Final project for pass the exam. Here we gonna test our knowledge in salesforce
-
 # README - Fundación Guay Equipo de GuayForce Developers
 
 Este es el README del proyecto de la Fundación Guay desarrollado por el equipo GuayForce Developers. Aquí encontrarás información útil y enlaces importantes relacionados con el proyecto.
