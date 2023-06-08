@@ -2,14 +2,143 @@
 <html>
   <head>
     <title>Formulario de Contacto</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="contact-form.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
   </head>
-<body>
-  <h1>Bienvenido a Wingu</h1>
-</body>
+  <body>
+    <main class="landing">
+      <div class="contact-landing">
+        <div class="logo-hero">
+          <h1>Somos</h1>
+          <img src="../wingu.png" alt="wingu logotype" />
+        </div>
+        <div class="container">
+          <form
+            class="contact-form row justify-content-center"
+            action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST"
+          >
+            <!-- Lead Source: Web -->
+            <input
+              type="hidden"
+              id="lead_source"
+              name="lead_source"
+              value="Web"
+            />
+            <!-- Salesforce input field -->
+            <input type="hidden" name="oid" value="00D8b0000032Ggp" />
+            <!-- First name -->
+            <div class="form-field col-lg-6 col-sm-12">
+              <input
+                id="first_name"
+                class="input-text"
+                type="text"
+                name="first_name"
+                required
+              />
+              <label id="firstNameLabel" class="label" for="first_name"
+                >Nombre</label
+              >
+            </div>
+            <!-- Last name -->
+            <div class="form-field col-lg-6 col-sm-12">
+              <input
+                id="last_name"
+                class="input-text"
+                type="text"
+                name="last_name"
+                required
+              />
+              <label id="lastNameLabel" class="label" for="last_name"
+                >Apellido</label
+              >
+            </div>
+            <!-- Company -->
+            <div class="form-field col-lg-6 col-sm-12">
+              <input
+                id="company"
+                class="input-text"
+                type="text"
+                name="company"
+                required
+              />
+              <label id="companyNameLabel" class="label" for="company"
+                >Compañía</label
+              >
+            </div>
+            <!-- Phone -->
+            <div class="form-field col-lg-6 col-sm-12">
+              <input
+                id="phone"
+                class="input-text"
+                type="phone"
+                name="phone"
+                required
+              />
+              <label id="phoneLabel" class="label" for="phone">Teléfono</label>
+            </div>
+            <!-- Email -->
+            <div class="form-field col-lg-6 col-sm-12">
+              <input
+                id="email"
+                class="input-text"
+                type="email"
+                name="email"
+                required
+              />
+              <label id="emailLabel" class="label" for="email"
+                >Correo Electrónico</label
+              >
+            </div>
+            <!-- City -->
+            <div class="form-field col-lg-6 col-sm-12">
+              <input
+                id="city"
+                class="input-text"
+                type="phone"
+                name="city"
+                required
+              />
+              <label id="cityLabel" class="label" for="city">Ciudad</label>
+            </div>
+            <!-- Donation Type -->
+            <div class="form-field col-lg-12">
+              <select
+                id="00N8b00000Ifjb6"
+                name="00N8b00000Ifjb6"
+                class="form-select"
+                aria-label="Donation Type"
+                required
+              >
+                <option selected>Selecciona tu tipo de donación</option>
+                <option value="Alimento">Alimento</option>
+                <option value="Dinero">Dinero</option>
+                <option value="Ropa">Ropa</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <!-- Submit button -->
+            <input
+              class="submit-btn"
+              type="submit"
+              value="contactarse con un representante"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="contact-form.js"></script>
+  </body>
 </html>
