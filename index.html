@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+  </head>
 
-<head>
-  <title>Formulario de Contacto</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-</head>
+  <body>
+    <h1>Formulario de Contacto</h1>
+    <img src="wingu.png" class="imagen" />
+    <form
+      action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+      method="POST"
+    >
+      <input type="hidden" name="oid" value="00D8b0000032GZK" />
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input
+          id="first_name"
+          maxlength="40"
+          name="first_name"
+          size="20"
+          type="text"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input
+          id="last_name"
+          maxlength="80"
+          name="last_name"
+          size="20"
+          type="text"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="compania">Companía:</label>
+        <input
+          id="company"
+          maxlength="40"
+          name="company"
+          size="20"
+          type="text"
+          placeholder="Dejar en blanco si no corresponde"
+        />
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input id="phone" maxlength="40" name="phone" size="20" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          maxlength="80"
+          name="email"
+          size="20"
+          type="text"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="Ciudad">Ciudad:</label>
+        <input
+          id="city"
+          maxlength="40"
+          name="city"
+          size="20"
+          type="text"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="Que desea donar">Que desea donar:</label>
+        <select
+          id="00N8b00000Ifjb6"
+          name="00N8b00000Ifjb6"
+          title="Tipo de donación"
+          required
+        >
+          <option value="">Seleccione por favor</option>
+          <option value="Alimento">Alimentos</option>
+          <option value="Dinero">Dinero</option>
+          <option value="Otros">Otros</option>
+          <option value="Ropa">Ropa</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Donar" />
+      </div>
+    </form>
 
+    <div id="miPopup" class="popup">
+      <div class="background-image"></div>
+      <p class="message">
+        Gracias por su generosa donación<br />
+        Su apoyo nos ayuda a marcar la diferencia en la vida de aquellos que más
+        lo necesitan.
+      </p>
+      <button onclick="cerrarPopup()">X</button>
 <body>
   <h1>Formulario de Contacto</h1>
   <img src="wingu.png" class="imagen">
@@ -50,27 +148,14 @@
     <div class="form-group">
       <input type="submit" value="Donar">
     </div>
-  </form>
-</body>
 
-</html>
-
-<html>
-
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-
-<body>
-  <div class="social-icons">
-    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-  </div>
-  <form action="procesar.php" method="post">
-    <!-- campos del formulario -->
-  </form>
-</body>
-
+    <footer>
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="popUp.js"></script>
+  </body>
 </html>
