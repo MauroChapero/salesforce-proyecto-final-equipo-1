@@ -1,5 +1,13 @@
 # salesforce-proyecto-final-equipo-1
-Final project for pass the exam. Here we gonna test our knowledge in salesforce
+
+## Integrantes
+- Barahona Cesar
+- Bejar Carolina
+- Cader Fernanda
+- Chapero Mauro
+- Gentile Bruno
+- Ruiz Federico
+- Vizgarra Bárbara
 
 # README - Fundación Guay Equipo de GuayForce Developers
 
@@ -16,13 +24,9 @@ Este es el README del proyecto de la Fundación Guay desarrollado por el equipo 
 
 ## Enlaces útiles
 
-- GitHub: [https://github.com/MauroChapero/salesforce-proyecto-final-equipo-1](https://github.com/MauroChapero/salesforce-proyecto-final-equipo-1)
 - Trello: [https://trello.com/b/Au1CQih4/proyecto-final-equipo-1](https://trello.com/b/Au1CQih4/proyecto-final-equipo-1)
-- Whatsapp: [https://chat.whatsapp.com/GM8LgpJp2sCFEuiv8Cn3rJ](https://chat.whatsapp.com/GM8LgpJp2sCFEuiv8Cn3rJ)
-
 ## Trails relacionados que podrán guiarnos en el proceso de creación de leads
 
-- Planilla PP: [https://docs.google.com/spreadsheets/d/1atk-jUTe7L3Q90Qx6oM0S9qP-UDiqx1fZpKXhvsRzNM/edit#gid=123114253](https://docs.google.com/spreadsheets/d/1atk-jUTe7L3Q90Qx6oM0S9qP-UDiqx1fZpKXhvsRzNM/edit#gid=123114253)
 - Install Nonprofit Success Pack (NPSP) into a Trailhead Playground: A partir de este módulo se puede realizar todo el trabajo relacionado con la creación de leads.
 
 ## Tarea principal
@@ -66,18 +70,3 @@ Estos son los pasos adicionales específicos a seguir en nuestro proyecto:
    - Crear un proyecto en Firebase.
    - Configurar Firebase en el repositorio local.
    - Hacer el deploy a Firebase.
-
-## Comprar un dominio .com.ar
-
-Si deseas comprar un dominio .com.ar, puedes seguir estos pasos:
-
-1. Acceder al sitio web de NIC Argentina: [https://nic.ar/](https://nic.ar/)
-2. Verificar la disponibilidad del dominio que deseas adquirir.
-3. Crear una cuenta en NIC Argentina, si aún no tienes una.
-4. Iniciar sesión en NIC Argentina con tu cuenta.
-5. Comprar el dominio .com.ar agregándolo al carrito y siguiendo el proceso de pago.
-6. Configurar los DNS del dominio para vincularlo a tu sitio web o servicio en línea.
-
-Recuerda que la propagación de los DNS puede llevar hasta 48 horas.
-
-¡Gracias por utilizar nuestro README! Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.
